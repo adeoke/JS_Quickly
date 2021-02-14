@@ -16,4 +16,6 @@ Components included (once completed):
 
 That should be it.
 
+Useful sources of information :
 
+https://developer.mozilla.org/en-US/docs/Web/API/console

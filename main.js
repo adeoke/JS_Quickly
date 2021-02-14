@@ -125,3 +125,58 @@ while(i<10){
 for(let item of cars){
     console.log(item.name);
 }
+
+//high order array methods.
+//foreach, map, filter
+//filter creates a new array based on a condition.
+cars.forEach(function(car){
+    console.log(`car name: ${car.name} inside foreach loop`);
+})
+
+
+//difference between double equals and triple equals
+//double equals matches 10 and '10', whereas === alsop needs to match the type as well.
+
+
+function checkValue(input){
+    if (input === 10){
+        console.log('its true, but more importantly it also matches type');
+    } else if (input == 10) {
+        console.log('it\'s true even for different data types');
+    } else {
+        console.log('nah!');
+    }
+}
+
+const tripleEqX = 10;
+const doubleEqX = '10';
+
+checkValue(tripleEqX);
+checkValue(doubleEqX);
+
+
+//classes
+class House {
+    constructor(doorNumber, windows, bedrooms, baths){
+        this.doorNumber = doorNumber;
+        this.windows = windows;
+        this.bedrooms = bedrooms;
+        this.baths = baths;
+    }
+
+    getDoorNumber(){
+        return this.doorNumber;
+    }
+
+    setWindows(windowCount){
+        this.windows = windowCount;
+    }
+
+    getWindows(){
+        return this.windows;
+    }
+}
+
+const detachedHouse = new House(10, 9, 4, 2);
+console.log(detachedHouse.getDoorNumber());
+

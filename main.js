@@ -29,3 +29,9 @@ const message = `my age is ${aNumber} some other junk is ${anUndefined}`;
 
 console.log(message);
 
+// String functions
+
+console.log(message.split(' '));
+//e.g., ["my", "age", "is", "14", "some", "other", "junk", "is", "undefined"]
+
+

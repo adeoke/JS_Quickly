@@ -7,12 +7,12 @@ Note that this is really, really quick so my usual formatting and organisation w
 
 Components included (once completed):
 
-Node
-Express
-Mongoose/MongoDB
-Fetch
-OAuth2
-JWT
+##Node
+##Mongoose/MongoDB
+##Express
+##Fetch
+##OAuth2
+##JWT
 
 That should be it.
 
